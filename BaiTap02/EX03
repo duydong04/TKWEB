@@ -1,0 +1,25 @@
+body{
+    font:Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:white;
+  }
+  
+  /* Header **/
+  header{
+    background:darksalmon;
+  color:white;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:rgb(110, 112, 112) 3px solid;
+  }
+  
+  footer{
+    margin-top:20px;
+  padding:30px;
+  margin:0px;
+  background-color:rgb(166, 175, 47);
+  text-align: center;
+  color: aliceblue;
+  }
+  /*Nguyen Duy Đông*/
