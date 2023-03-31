@@ -1,0 +1,127 @@
+body{
+    font:Arial, Helvetica,sans-serif;
+padding:0;
+margin:0;
+background-color:white;
+}
+
+/* Global */
+.container{
+ font-size: 20px;
+padding: 1px 20px 1px 100px;
+}
+
+ul{
+ color: rgb(20, 19, 19);
+}
+
+.button_1{
+  background-color: rgb(136, 161, 173);
+  padding: 10px 30px 10px 10px;
+  color: black;
+}
+
+.dark{
+  background-color: rgb(12, 186, 230);
+  color: rgb(8, 8, 8);
+  padding: 10px 0px 10px 30px;
+}
+
+/* Header **/
+header{
+    background:darksalmon;
+color:white;
+padding-top:30px;
+min-height:70px;
+border-bottom:rgb(110, 112, 112) 3px solid;
+}
+
+header a{
+    text-decoration: none;
+}
+
+header li{
+    display: inline;
+  padding-right: 26px;
+}
+
+header #branding{
+    background-color:darksalmon;
+height: 20px;
+}
+
+header #branding h1{
+    background-color:darksalmon;
+    padding-top: 30px;
+}
+
+header nav{
+    position: initial;
+ transform: translateX(0);
+ opacity: 1;
+ justify-content:flex-end;
+ align-items: center;
+ display: flex;
+ font-size: 20px;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header .highlight, header .current a{
+    color:aquamarine;
+}
+
+header a:hover{
+    color:aquamarine;
+}
+
+/* Showcase */
+#showcase{
+    background-image: url(https://lh5.googleusercontent.com/PSTCDyDdN94DKzFye58JckFupnq5mcSgmPyXLuZSknHs9qBlUfUFLay0FdYDtNq2srdWAYjlDD8yGmLncN52wa-cAFkoMEI8ZPYhRLzikPjRsozRAlDNTC_ydLf9JPyAvJkf-Imw);
+    background-size: 1600px 500px;
+    background-repeat:no-repeat;
+    margin: 0px 0px -32px 0px;
+  }
+  
+  #showcase h1{
+    text-align: center;
+    font-size: 60px;
+    color: rgb(238, 227, 227);
+    padding-top: 100px;
+  }
+  
+  #showcase p{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-bottom: 200px;
+  }
+
+/* Newsletter */
+#newsletter{
+  background-color: rgba(94, 90, 87, 0.452);
+}
+
+#newsletter h1{
+  color: rgb(0, 101, 148);
+margin-top: 30px;
+transform: translate(10px,17px);
+}
+
+#newsletter form {
+  text-align: right;
+  transform: translate(-250px,-40px);
+}
+
+#newsletter input[type="email"]{
+  padding: 10px 83px 10px 10px;
+}
+
+
+footer{
+  margin-top:20px;
+  padding:30px;
+  background-color:rgb(166, 175, 47);
+  text-align: center;
+  color: wheat;
+}
+
