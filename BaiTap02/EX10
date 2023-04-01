@@ -1,0 +1,176 @@
+body{
+    font:15px/1.5 Arial, Helvetica,sans-serif;
+padding:0;
+margin:0;
+background-color:white;
+}
+
+/* Global */
+.container{
+ width:80%;
+ margin: auto;
+ overflow: hidden;
+}
+
+ul{
+ color: rgb(20, 19, 19);
+ margin: 0px;
+ padding: 0px;
+}
+
+.button_1{
+  height: 38px;
+  background-color: rgb(136, 161, 173);
+border: 0;
+padding-left: 20px;
+padding-right: 20px;
+color: black;
+}
+
+.dark{
+  background-color: rgb(12, 186, 230);
+  color: rgb(8, 8, 8);
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Header **/
+header{
+    background:darksalmon;
+color:white;
+padding-top:30px;
+min-height:70px;
+border-bottom:rgb(110, 112, 112) 3px solid;
+}
+
+header a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    display: inline;
+  float: left;
+  padding: 0px 20px 0px 20px;
+}
+
+header #branding{
+    background-color:darksalmon;
+float: left;
+}
+
+header #branding h1{
+    background-color:darksalmon;
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a{
+    color:aquamarine;
+    font-weight: bold;
+}
+
+header a:hover{
+    color:aquamarine;
+    font-weight: bold;
+}
+
+/* Showcase */
+#showcase{
+    background-image: url(https://img5.thuthuatphanmem.vn/uploads/2021/09/19/anh-nen-dem-toi_100313529.jpg);
+    text-align: center;
+    min-height: 400px;
+    color: rgb(238, 227, 227);
+  }
+  
+  #showcase h1{
+    font-size: 55px;
+    padding-top: 100px;
+    margin-bottom: 10px;
+  }
+  
+  #showcase p{
+   font-size: 20px;
+  }
+
+/* Newsletter */
+#newsletter{
+  background: rgba(94, 90, 87, 0.452);
+  padding: 15px;
+  color: #fff;
+
+}
+
+#newsletter h1{
+  float: left;
+}
+
+#newsletter form {
+  float: right;
+  margin-top: 15px;
+}
+
+#newsletter input[type="email"]{
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+
+/* Boxes */
+#boxes{
+    padding: 65px 0px 45px 0px;
+    text-align: center;
+}
+
+#boxes .box{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+}
+
+#boxes .box img{
+  height: 136px;
+}
+
+/* Sidebar */
+aside#sidebar{
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    margin: 30px 0px 0px 30px;
+  }
+  
+  aside#sidebar .quote input, aside#sidebar .quote textarea{
+    width: 90%;
+    padding: 5px;
+  }
+  
+  /* Main-col */
+  article#main-col{
+    float: left;
+    width: 65%;
+  }
+  
+/* Services */
+ul#services li{
+    list-style: none;
+    padding: 15px;
+    border: rgb(76, 141, 161) solid 1px;
+    margin-bottom: 5px;
+    background: rgb(122, 183, 187);
+    }
+
+footer{
+    margin-top:20px;
+    padding:20px;
+    background-color:rgb(166, 175, 47);
+    text-align: center;
+    color: wheat;
+}
+
