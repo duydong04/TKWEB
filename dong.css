@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {
+
+}
+
+
+.m-t {
+    margin-top: 5px;
+}
+#header {
+    height: 46px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  
+}
+.nav {
+    display: inline-block;
+}
+.nav li {
+    display: inline-block;
+    line-height: 46px;
+    
+}
+.nav li a {
+    color: aliceblue;
+    padding: 0 24px;
+    text-decoration: none;
+    display: block;
+
+}
+.nav .brand > a{
+    font-size: 25px;    
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+#header .shopping {
+    float: right;
+    line-height: 46px;
+    color: #fff;
+    padding: 0 24px;
+    font-size: 25px;
+    
+}
+#header .shopping:hover {
+    cursor: pointer;
+}
+
+
+
+#slider {
+    margin-top: 46px;
+    padding-top: 50%;
+    background: url(/web/img/giay-the-thao-nam-tphcm-1.jpg) top center/ cover no-repeat;
+    position: relative;
+
+}
+#slider .slider-one {
+    position: absolute;
+    text-align: center;
+    bottom: 47px;
+    width: 100%;
+    color: bisque;
+    font-size: 20px;
+    ;
+    
+
+}
+
+#content {
+
+}
+
+.commit .part {
+    display: inline-block;
+    width: calc(100% /3);
+    text-align: center;
+    float: left;
+    padding: 12px 0;
+    
+}
+.commit i {
+    font-size: 40px;
+}
+.commit .logo {
+    color: rgb(132, 82, 233);
+    font-weight: 500;
+} 
+.commit .commit-head {
+    color: black;
+    font-weight: 550;
+
+}
+.tabble-one {
+    margin-top: 16px;
+    width: 50%;
+}
+.tabble-one .shoe {
+    font-size: 24px;
+    font-weight: 550;
+    padding-left: 20px;
+}
+ .shoe-review {
+}
+.f-l {
+    float: left;
+    width: 33.3333%;
+}
+.f-l > img {
+    width: 100%;
+    height: 160px;
+}
+.f-l .shoe-show-body {
+    padding-left: 12px;
+}
+.tabble-two .backpack {
+    font-size: 24px;
+    font-weight: 550;
+    padding-left: 20px;
+}
+.tabble-two {
+    margin-top: 16px;
+    width: 50%;
+    float: right;
+}
+.show-brand-new {
+    display: inline-block;
+}
+
+
+
+#footer {
+    background-color: rgb(206, 222, 232);
+    height: 100px;
+
+}
+#footer .review-media {
+    text-align: center;
+    margin-top: 10px;
+}
+#footer .review-media p{
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 15px;    
+}
+#footer .review-media h4 {
+    margin-top: 5px;
+    font-weight: 500;
+}
+
